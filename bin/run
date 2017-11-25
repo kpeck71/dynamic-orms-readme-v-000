@@ -10,8 +10,8 @@ puts "song album: " + song.album
 song.save
 
 song2 = Song.new(name: "Ruby", album: "Ruby Album Name")
-puts "song name: " + song.name
-puts "song album: " + song.album
+puts "song2 name: " + song2.name
+puts "song2 album: " + song2.album
 song2.save
 
 song3 = Song.new(name: "Hello", album: "Stevie Wonder Album")
